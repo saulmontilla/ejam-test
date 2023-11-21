@@ -12,8 +12,8 @@ import RightArrowIcon from './icons/RightArrowIcon'
 
 export default function Navbar() {
     const [windowSize, setWindowSize] = useState({
-        width: window.innerWidth,
-        height: window.innerHeight,
+        width: typeof window !== 'undefined' ? window.innerWidth : 0,
+        height: typeof window !== 'undefined' ? window.innerHeight : 0,
     });
 
     const [currentElement, setCurrentElement] = useState(0)
