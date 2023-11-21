@@ -1,0 +1,9 @@
+.logoContainer svg {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .antivirusesContainer svg {
+        max-width: 60px;
+    }
+}

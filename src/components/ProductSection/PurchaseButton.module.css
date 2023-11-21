@@ -1,0 +1,10 @@
+.button {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .button {
+        font-size: 14px;
+    }
+}
